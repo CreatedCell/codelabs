@@ -34,14 +34,14 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Firebase Meetup'),
+        title: const Text('Wasting Time'),
       ),
       body: ListView(
         children: <Widget>[
           Image.asset('assets/codelab.png'),
           const SizedBox(height: 8),
-          const IconAndDetail(Icons.calendar_today, 'October 30'),
-          const IconAndDetail(Icons.location_city, 'San Francisco'),
+          const IconAndDetail(Icons.calendar_today, 'February 22'),
+          const IconAndDetail(Icons.location_city, 'Depressed in Atlanta'),
           const Divider(
             height: 8,
             thickness: 1,
@@ -49,9 +49,9 @@ class HomePage extends StatelessWidget {
             endIndent: 8,
             color: Colors.grey,
           ),
-          const Header("What we'll be doing"),
+          const Header("I failed to learn how to do this homework."),
           const Paragraph(
-            'Join us for a day full of Firebase Workshops and Pizza!',
+            'Join me in failing. How many homework assignments will there be?',
           ),
         ],
       ),
